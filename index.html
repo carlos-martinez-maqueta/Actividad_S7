@@ -4,12 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Innova Soluciones</title>
-  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
   <header>
-    <div class="logo"><img src="img/logo.png" alt="Logo Innova Soluciones" /></div>
+    <div class="logo">
+      <img src="img/logo.png" alt="" class="icon-logo">
+      <p>Innova Soluciones</p>
+      </div>
     <nav>
       <ul>
         <li><a href="#servicios">Servicios</a></li>
@@ -31,17 +34,17 @@
     <h2>Nuestros Servicios</h2>
     <div class="servicios-grid">
       <div class="servicio">
-        <img src="img/icono-web.png" alt="Desarrollo Web" />
+        <img src="img/icono-web.png" alt="" class="icono-servicio">
         <h3>Desarrollo Web</h3>
         <p>Webs responsivas, modernas y rápidas.</p>
       </div>
       <div class="servicio">
-        <img src="img/icono-app.png" alt="Apps Móviles" />
+        <img src="img/icono-app.png" alt="" class="icono-servicio">
         <h3>Apps Móviles</h3>
         <p>Aplicaciones para iOS y Android totalmente personalizadas.</p>
       </div>
       <div class="servicio">
-        <img src="img/icono-consultoria.png" alt="Consultoría Digital" />
+        <img src="img/icono-consultoria.png" alt="" class="icono-servicio">
         <h3>Consultoría Digital</h3>
         <p>Te asesoramos para llevar tu idea al siguiente nivel.</p>
       </div>
@@ -55,19 +58,21 @@
         <p>Somos una startup enfocada en ofrecer soluciones digitales innovadoras que impulsan negocios hacia el futuro.</p>
       </div>
       <div class="imagen">
-        <img src="img/hero-bg.jpg" alt="Acerca de nosotros" />
+        <img src="img/about-bg.jpg" alt="Acerca de nosotros" />
       </div>
     </div>
   </section>
 
   <section id="contacto" class="contacto">
-    <h2>Contáctanos</h2>
-    <form>
-      <input type="text" name="nombre" placeholder="Tu nombre" required />
-      <input type="email" name="email" placeholder="Tu correo electrónico" required />
-      <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
-      <button type="submit" class="btn">Enviar</button>
-    </form>
+    <div class="center_formulario">
+      <h2>Contáctanos</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required />
+        <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>      
+    </div>
   </section>
 
   <footer>
